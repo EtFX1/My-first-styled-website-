@@ -1,0 +1,185 @@
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+  margin: 0;
+}
+
+.top-container {
+  background-color: #78b6d4;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  max-width: 150px;
+  left: 300px;
+  top: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 150px;
+  right: 300px;
+  top: 50px;
+}
+
+/* I'm ETHAN title */
+h1 {
+  margin-top: 0px;
+  font-size: 6em;
+  font-family: "Rampart One", cursive;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  color: white;
+  line-height: 2;
+}
+
+/* Welcome to my first website w h2 tag */
+#welcome {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* everything that is not a heading */
+p {
+  font-family: "Roboto Slab", serif;
+  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto auto;
+}
+
+.udemy-link {
+  color: #28b5b5;
+  text-decoration: none;
+}
+.udemy-link:hover {
+  text-decoration: underline;
+}
+
+.meme {
+  width: 200px;
+  margin-top: 20px;
+  border: solid;
+}
+
+hr {
+  width: 4%;
+  border: 6px dotted;
+  border-bottom: none;
+  color: #d9e4ba;
+  margin: 100px auto;
+}
+
+/* HELLO, MY TECHNICAL SKILLS, GET IN TOUCH */
+h2 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: #28b5b5;
+}
+
+/* HTML 5, CSS 3, BOOTSTRAP5 */
+h3 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: #11999e;
+  line-height: 0.7;
+}
+
+/* CONTACT ME */
+
+/* MY PICTURE */
+#myself {
+  width: 250px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+/* row of each skill */
+/* (r.) position each picture */
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.html-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.css-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bootstrap-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* get in touch h2 (fix later) */
+
+/*  Instagram Twitter GitHub Email links  */
+
+.footer-link {
+  font-family: "Archivo Black", sans-serif;
+  color: #4e8486;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px;
+  margin: 15px 15px 8px 15px;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.contact-me {
+  width: 30%;
+  margin: 40px auto 40px auto;
+}
+
+.get_in_touch {
+  margin-bottom: 100px;
+}
+
+.email-button {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #11999e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.email-button:hover {
+  background: #28b5b5;
+  text-decoration: none;
+}
+
+/* make something happen on hover */
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 3em;
+}
+
+#copyright {
+  color: white;
+  font-size: 0.75rem;
+}

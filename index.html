@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ethan's First (styled) Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/3665/3665930.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Rampart one font (for H1) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Roboto slab for p tags -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <!-- montserrat subrayada for h3s (html, css, bootstrap titles) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Rampart+One&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <!-- if user's don't already have these fonts installed or cached on their system,
+then the browser will take them to this location and grab those fonts for them
+-->
+  </head>
+  <body>
+    <!-- Some inline css has been used to color the <div> elements aquamarine -->
+    <div class="top-container">
+      <!-- turn top container this image: https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80 -->
+      <img
+        class="top-cloud"
+        src="https://cdn-icons-png.flaticon.com/512/9421/9421022.png"
+      />
+      <div id="intro">
+        <h1>I'm Ethan</h1>
+        <p id="welcome">Welcome to my first website</p>
+        <p />
+      </div>
+      <img
+        class="bottom-cloud"
+        src="https://cdn-icons-png.flaticon.com/512/9421/9421022.png"
+        alt="cloud-img"
+      />
+      <img
+        id="mountain"
+        src="https://cdn-icons-png.flaticon.com/512/3010/3010572.png"
+        alt="mountain-img"
+      />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <!-- picture of myself -->
+        <img id="myself" src="images/myself2.png" alt="an image of myself" />
+        <h2>Hello.</h2>
+        <p class="intro">
+          My name is Ethan Obott. I am currently learning FullStack web
+          development from the amazing Udemy course called
+          <a
+            class="udemy-link"
+            href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?amp=&utm_source=adwords&utm_medium=udemyads&utm_campaign=Webindex_Catchall_la.EN_cc.UK&utm_term=_._ag_114213220700_._ad_532713168385_._kw__._de_m_._dm__._pl__._ti_dsa-423967289464_._li_1006567_._pd__._&matchtype=&gbraid=0AAAAADROdO0GBCCPlx_454juagmzWvM2c&gclid=CjwKCAiAuOieBhAIEiwAgjCvcq2OojI1xzAlgULqDoMJJY3Kqx_DngjnJVzSYtFyEAsRDJOSzRe2ORoCUkkQAvD_BwE"
+            target="_blank"
+            >The complete 2023 Web Development Bootcamp</a
+          >
+          by Dr. Angela Yu.
+          <br />
+          In a nutshell...
+        </p>
+        <img
+          class="meme"
+          src="https://media2.giphy.com/media/CuuSHzuc0O166MRfjt/giphy.gif?cid=ecf05e47dow189ruz3876oswk02li1wc886cfq0vlo790776&rid=giphy.gif&ct=g"
+          alt="meme image"
+        />
+      </div>
+      <hr />
+      <!-- My technical skills -->
+      <div class="skills">
+        <h2>(Technical) Skills.</h2>
+        <!-- html skills row -->
+        <div class="skill-row">
+          <img
+            class="html-img"
+            src="images/skills/html img.png"
+            alt="html image"
+          />
+          <h3>HTML 5</h3>
+          <p>
+            HTML is the "skeleton" if you will, of every website on the web. It
+            is essential for creating modern, dynamic and engaging web pages.
+            With HTML 5, I can create custom web pages tailored to your unique
+            style and needs.
+          </p>
+        </div>
+
+        <!-- css skills row -->
+        <div class="skill-row">
+          <img
+            class="css-img"
+            src="images/skills/css img.png"
+            alt="css image"
+          />
+          <h3>CSS 3</h3>
+          <p>
+            No website looks good with just HTML. But with CSS i can transform,
+            giving it a stunning design. From sleek animations to beautiful
+            layouts, let me elevate your online presence. Contact me today to
+            learn more about how CSS 3 can take your website to the next level.
+          </p>
+        </div>
+        <!-- bootstrap skills row -->
+        <div class="skill-row">
+          <img class="bootstrap-img" src="images/skills/boots img.png" />
+          <h3>Bootstrap 5</h3>
+          <p>
+            I can take your website with Bootstrap - the ultimate front-end
+            library for responsive web design. With its powerful features and
+            sleek templates, I can create a stunning website that looks good and
+            works seamlessly across all devices.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <!-- contact me -->
+      <div class="get_in_touch">
+        <h2>Get In Touch</h2>
+        <h3 style="font-family: 'Archivo Black', sans-serif">
+          If you want your website to stand out.
+        </h3>
+        <p class="contact-me">
+          Contact me below through email, and also leave a follow on any of the
+          social media platforms.
+        </p>
+        <a class="email-button" href="mailto:name@gmail.com" target="_blank"
+          >EMAIL ME</a
+        >
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://www.instagram.com/etn_obo/"
+        target="_blank"
+        >Instagram</a
+      >
+      <a class="footer-link" href="https://twitter.com/" target="_blank"
+        >Twitter</a
+      >
+      <a
+        class="footer-link"
+        href="https://github.com/EtFX1?tab=repositories"
+        target="_blank"
+        >GitHub</a
+      >
+      <p id="copyright">© 2023 Ethan Obott. All rights reserved</p>
+    </div>
+  </body>
+</html>
